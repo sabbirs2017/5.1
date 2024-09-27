@@ -1,0 +1,41 @@
+body{
+    font-family: "Oswald";
+   
+}
+
+.nav-title{
+    color: #181818;
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.text-primary{
+    color: #f46906;
+}
+
+/*nav related css*/
+nav{
+    display: flex;
+}
+
+nav > ul{
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 50px;
+    
+}
+/*akhane > sign use kora jabe na . use korle nav er por emidiate j 1st li ta ace oitar upor css apply hbe bakigulor upor apply hobe na .*/
+
+nav a{
+    text-decoration: none;
+    color: #474747;
+}/*text decoration use korar khettre shudu a attribute er upor css apply korte hobe.onno kono attribute er upor text-decoration css apply hoy na*/ 
+
+.btn-primary{
+    border-radius: 5px;
+    background-color: #f46906;
+    
+}
