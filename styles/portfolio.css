@@ -1,41 +1,109 @@
-body{
-    font-family: "Oswald";
-   
-}
+    body{
+        font-family: "Oswald";
+    
+    }
+    .header{
+        background-color: #FFF8F3;
+        background-image: url(../portfolio-resources-main/images/header_bg.png);
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        background-size: 500px;
+    }
 
-.nav-title{
-    color: #181818;
-    font-weight: 800;
-    font-size: 45px;
-}
+/*common style*/
 
-.text-primary{
-    color: #f46906;
-}
+    .text-primary{
+        color: #f46906;
+    }
 
+    .section-title{
+        text-align: center;
+        font-weight: 700;
+        font-size: 35px;
+        color: #181818;
+    }
+
+    
 /*nav related css*/
-nav{
-    display: flex;
-}
+    nav{
+        display: flex;
+        justify-content: space-between;/*mary r (portfolio,blog,hire me) ai 2 ta k 2 side e niye jete jusfity-content tag use kora hoy.space between r space around 2 ta diyei same kaj kora jay.*/
+        align-items: center; /*mary,portfolio , blog,hire me sobgulake same line e ante ai tag use kora hocce*/
+        margin: 0px 200px;
+    }
 
-nav > ul{
-    display: flex;
-}
+    .nav-title{
+        color: #181818;
+        font-weight: 800;
+        font-size: 45px;
+    }
 
-nav li{
-    list-style: none;
-    margin-right: 50px;
     
-}
-/*akhane > sign use kora jabe na . use korle nav er por emidiate j 1st li ta ace oitar upor css apply hbe bakigulor upor apply hobe na .*/
+    nav > ul{
+        display: flex;
+        align-items: center; /*portfolio,blog,hire me ai 3 ta k ak line e ante ai tag use kora hoy.*/
+    }
 
-nav a{
-    text-decoration: none;
-    color: #474747;
-}/*text decoration use korar khettre shudu a attribute er upor css apply korte hobe.onno kono attribute er upor text-decoration css apply hoy na*/ 
+    nav li{
+        list-style: none;
+        margin-right: 50px;
+    }
+    /*akhane > sign use kora jabe na . use korle nav er por emidiate j 1st li ta ace oitar upor css apply hbe bakigulor upor apply hobe na .*/
 
-.btn-primary{
-    border-radius: 5px;
-    background-color: #f46906;
-    
-}
+    nav a{
+        text-decoration: none;
+        color: #474747;
+    }/*text decoration use korar khettre shudu a attribute er upor css apply korte hobe.onno kono attribute er upor text-decoration css apply hoy na*/ 
+
+    .btn-primary{
+        border-radius: 5px;
+        background-color: #f46906;
+        border: 0;
+        padding: 18px 36px ;
+    }
+
+/*banner related design*/
+    .banner{
+        padding: 30px 30px 0px 150px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    div > h1{
+        font-weight: ;
+    }
+
+    .profile-pic{
+        width: 300px;
+    }
+
+    .banner-greeting{
+        color: #474747;
+        margin-bottom: 0;
+    }
+
+    .banner-title{
+        margin-top: 5px;
+    }
+
+    .banner-all{
+        margin-left: 52px;
+    }
+
+/*main section style*/
+/*about section style*/
+
+    .about{
+        padding: 130px;
+        background: #FFF8F3;
+        border-radius: 10px;
+        margin: 130px;
+    }
+
+    .section-discription{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        text-align: center;
+        color: #757575;
+    }
