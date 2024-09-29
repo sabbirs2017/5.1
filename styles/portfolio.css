@@ -9,6 +9,7 @@
         background-repeat: no-repeat;
         background-size: 500px , 60px;
         background-position-x: right , 70px;
+        margin-top: 50px;
     }
 
 /*common style*/
@@ -61,6 +62,7 @@
         background-color: #f46906;
         border: 0;
         padding: 18px 36px ;
+        color: #fdfcfb;
     }
 
 /*banner related design*/
@@ -68,10 +70,6 @@
         padding: 30px 30px 0px 150px;
         display: flex;
         justify-content: space-between;
-    }
-
-    div > h1{
-        font-weight: ;
     }
 
     .profile-pic{
@@ -100,6 +98,7 @@
             padding: 130px;
             background: #FFF8F3;
             border-radius: 10px;
+            margin-top:100px !important;
             margin: 130px;
         }
 
@@ -136,6 +135,7 @@
         }
         .skill-container{
             display: flex;
+            /* j sob div e disply hisabe flex use kora hoy sekhane div gulor majhkhane faka jaygar jonno gap attribute use kora jay   gap:50px  tahole div gulor moddhe 50px gap toiri hobe. gap atttibute apply er khettre mone rakhte hobe j display:flex j class e thakbe gap o sei flex e rakhte hobe*/
         }
         .skill{
             margin: 24px;
@@ -161,4 +161,48 @@
         }
         img{
             padding: 20px;
+        }
+
+    /* resume style */
+        .resume-conteiner{
+            display: flex;
+            gap: 71px;
+            
+        }
+        #first-half{
+            margin-left: 230px;
+        }
+        #second-half{
+            margin-right: 230px;
+        }
+        .resume-column-title{
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 61px;
+            color: #474747;
+        }
+        .resume-item-title{
+            font-weight: 700;
+            font-size: 25px;
+            line-height: 17px;
+            color: #474747;
+        }
+        .resume-item-institution{
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 17px;
+            color: #757575;
+        } 
+        .resume-item-discription{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 175%;
+            color: #757575;
+        }
+        .resume-conteiner hr{
+            margin: 30px;
+        }
+        .dawnload-cv{
+            text-align: center;
+            margin-top: 50px;
         }
