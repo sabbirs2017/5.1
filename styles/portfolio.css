@@ -206,3 +206,13 @@
             text-align: center;
             margin-top: 50px;
         }
+
+
+/* footer related style */
+    
+    footer{
+        display: flex;
+        margin-top: 100px;
+        background-color:#FFF8F3 ;
+        padding: 130px 200px;
+    }
