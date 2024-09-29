@@ -221,6 +221,7 @@
         width: 50%;
     }
     .contact input[type="text"] , .contact input[type="email"] , textarea{
+        /* akhane input er por j type lakha hoyece sekhane kono space daoya jabe na tahole stule kaj korbe na. */
         display: block;
         margin-bottom: 25px;
         padding: 18px 35px;
