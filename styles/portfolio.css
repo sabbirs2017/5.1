@@ -76,6 +76,7 @@
 
     .profile-pic{
         width: 300px;
+        padding-bottom: 0px;
         
     }
 
@@ -115,9 +116,6 @@
             display: flex;
             justify-content: space-between;
         }
-        .about-info{
-            
-        }
         .info-title{
             text-align: center;
             color: #757575;
@@ -128,4 +126,39 @@
         }
         .info-discription{
             margin-top: 0px;
+        }
+
+    /*what i do style*/
+        .what-i-do{
+            margin: 30px 345px;
+            color: #757575;
+            text-align: center;
+        }
+        .skill-container{
+            display: flex;
+        }
+        .skill{
+            margin: 24px;
+            background: #FFFFFF;
+            box-shadow: 0px 6px 50px  rgba(0, 0, 0, 0.406);
+            border-radius: 5%;
+            
+        }
+        #skill-one{
+           margin-left: 200px !important;
+        }
+        #skill-forth{
+            margin-right: 150px !important;
+         }
+        .skill-discription{
+            color: #757575;
+            padding: 30px;
+            padding-top: 0px;
+        }
+        .skill-title{
+            padding: 20px;
+            padding-top: 0px;
+        }
+        img{
+            padding: 20px;
         }
