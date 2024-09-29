@@ -76,6 +76,7 @@
 
     .profile-pic{
         width: 300px;
+        
     }
 
     .banner-greeting{
@@ -92,19 +93,39 @@
     }
 
 /*main section style*/
-/*about section style*/
 
-    .about{
-        padding: 130px;
-        background: #FFF8F3;
-        border-radius: 10px;
-        margin: 130px;
-    }
+    /*about section style*/
+        .about{
+            padding: 130px;
+            background: #FFF8F3;
+            border-radius: 10px;
+            margin: 130px;
+        }
 
-    .section-discription{
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 30px;
-        text-align: center;
-        color: #757575;
-    }
+        .section-discription{
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;
+            text-align: center;
+            color: #757575;
+        }
+
+    /*about-info style*/
+        .about-info-container{
+            display: flex;
+            justify-content: space-between;
+        }
+        .about-info{
+            
+        }
+        .info-title{
+            text-align: center;
+            color: #757575;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 10px;
+            margin-bottom: 0px;
+        }
+        .info-discription{
+            margin-top: 0px;
+        }
